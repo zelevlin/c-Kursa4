@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/evgeniizelenkov/Desktop/ITMO.ШРВ/C++/testapp/.vscode/tasks"
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003B50, symSize: 0xBC }
+  - { offsetInCU: 0x2E55, offset: 0x2E55, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003B50, symSize: 0xBC }
+  - { offsetInCU: 0x26, offset: 0x2EF9, size: 0x8, addend: 0x0, symName: __Z11handleInputRiS_iiS_ii, symObjAddr: 0x0, symBinAddr: 0x100003C0C, symSize: 0x224 }
+  - { offsetInCU: 0x33, offset: 0x2F06, size: 0x8, addend: 0x0, symName: __Z11handleInputRiS_iiS_ii, symObjAddr: 0x0, symBinAddr: 0x100003C0C, symSize: 0x224 }
+  - { offsetInCU: 0x26, offset: 0x2FC7, size: 0x8, addend: 0x0, symName: __Z13initCharacterR9Characterii, symObjAddr: 0x0, symBinAddr: 0x100003E30, symSize: 0x44 }
+  - { offsetInCU: 0x41, offset: 0x2FE2, size: 0x8, addend: 0x0, symName: __Z13initCharacterR9Characterii, symObjAddr: 0x0, symBinAddr: 0x100003E30, symSize: 0x44 }
+  - { offsetInCU: 0x85, offset: 0x3026, size: 0x8, addend: 0x0, symName: __Z13drawCharacterRK9Character, symObjAddr: 0x44, symBinAddr: 0x100003E74, symSize: 0x78 }
+...

@@ -1,0 +1,56 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: clang++ build",
+            "command": "/usr/bin/clang++",
+            "args": [
+                "-std=c++17",
+                "-fcolor-diagnostics",
+                "-fansi-escape-codes",
+               // "-finput-charset=UTF-8",
+                "-g",
+                "${workspaceFolder}/main.cpp",
+                "${workspaceFolder}/player/controls.cpp",
+                "${workspaceFolder}/player/character.cpp",
+                "${workspaceFolder}/player/actions.cpp",
+                "${workspaceFolder}/enemies/enemy.cpp",
+                "${workspaceFolder}/levels/levelManagement/levelManager.cpp",
+                "${workspaceFolder}/screenManager.cpp",
+                "${workspaceFolder}/game/interface.cpp",
+                "${workspaceFolder}/hitbox.cpp",
+                "${workspaceFolder}/inventory/Item.cpp",
+                "${workspaceFolder}/inventory/Inventory.cpp",
+                "${workspaceFolder}/inventory/Potion.cpp",
+                "${workspaceFolder}/inventory/Armor.cpp",
+                "${workspaceFolder}/game/gameLoop.cpp",
+                "${workspaceFolder}/timer.cpp",
+                "${workspaceFolder}/logger.cpp",
+                "${workspaceFolder}/levels/levelsGenerator/LevelGenerator.cpp",
+                "${workspaceFolder}/levels/levelsGenerator/LevelUtils.cpp",
+                "${workspaceFolder}/enemies/MonsterGenerator.cpp",
+                "${workspaceFolder}/loot/LootGenerator.cpp",
+                "${workspaceFolder}/inventory/Weapon.cpp",
+                
+                //"${workspaceFolder}/attack.cpp",
+                //"${file}",
+                "-o",
+                //"${fileDirname}/${fileBasenameNoExtension}",  
+                "${workspaceFolder}/build/main",
+                "-lncurses"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Задача создана отладчиком."
+        }
+    ],
+    "version": "2.0.0"
+}
